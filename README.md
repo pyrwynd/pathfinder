@@ -1,2 +1,2 @@
 # pathfinder
-theta* demo
+theta* algorithm demo
