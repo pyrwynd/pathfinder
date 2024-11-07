@@ -1,2 +1,2 @@
 # pathfinder
-Theta* Pathfinder Demo
+theta* demo
