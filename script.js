@@ -119,7 +119,8 @@ const workerScript = `
     }
 
     thetaStar(player, target, gridWidth, gridHeight, obstacles);
-  }`;
+  }
+`;
 
 let pathWorker = new Worker(URL.createObjectURL(new Blob([workerScript])));
 pathWorker.onmessage = function (event) {
@@ -190,10 +191,10 @@ function startMoving(dir) {
     }
   }, 55);
 }
-
 function stopMoving() {
   clearInterval(moveInterval);
 }
+
 
 let currentDirection = null;
 document.addEventListener('keydown', function(event) {
